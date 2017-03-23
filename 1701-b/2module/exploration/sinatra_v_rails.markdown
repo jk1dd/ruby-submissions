@@ -22,25 +22,25 @@ Now cd into each project, run `bundle` on each project, and you're ready to go. 
 >They are similar in X, but different in y.
 
 >Differences:
-1. Item, implication, effect for framework
-2. Item
-3. Item
-4. Item
-5. Item
+>1. Item, implication, effect for framework
+>2. Item
+>3. Item
+>4. Item
+>5. Item
 
 2. Consulting blogs and commentary you find online, identify 3 similarities between Rails and Sinatra.
 
 >Similarities:
-1. First
-2. Second
-3. Third
+>1. First
+>2. Second
+>3. Third
 
 3. Consulting blogs and commentary you find online, identify 3 things that distinguish Rails, advantages.
 
 >Advantages:
-1. advantage
-2. advantage
-3. advantage
+>1. advantage
+>2. advantage
+>3. advantage
 
 4. In your Rails project, what does the `routes.rb` file inside of the `/config` directory do? What does this correlate to in our Sinatra app?
 
