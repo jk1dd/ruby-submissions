@@ -28,9 +28,9 @@ Differences:
 * Item - Public folder in Rails (at same level as app) with what looks like response pages - versus "Sinatra doesn't know this ditty." This gives Rails and consistent and more professional way of handling unknown routes (but how would a deployed Sinatra app handle this?)
 * Item - More subdirectories in the config folder in Rails (environments, initializers, locales, and a bunch of other yml and rb items)
 * Item - Gems - hard to describe, but when running bundle and looking at the output, it seems that Rails' gems sets up a lot more things for you
-* Item - Rails has a bin directory - *[look up what this is]*
-* Item - Controllers - Rails has a Application Controller that seems to be the main one, and then the other two (Companies and Jobs) inherit from it. It seems that paths are handled more simply in Rails - rather than the path/verb combo, the methods are broken out by CRUD functionality (looking at the Company Controller). I would guess that the order of the methods doesn't matter the way it did in the Sinatra controller, and that the different controllers serve different parts of the app *[look this up]*
-* Item - Not sure if specific to Rails or an ERB thing, but the views seem to reference a form that is stored separately. And all files are appended with `.html.erb` *[look this up]*
+* Item - Rails has a bin directory, specific gem-wrappers (or binstubs?) to make sure gems will run in the correct environment
+* Item - Controllers - Rails has a Application Controller that seems to be the main one, and then the other two (Companies and Jobs) inherit from it. It seems that paths are handled more simply in Rails - rather than the path/verb combo, the methods are broken out by CRUD functionality (looking at the Company Controller). I would guess that the order of the methods doesn't matter the way it did in the Sinatra controller, and that the different controllers serve different parts of the app
+* Item - Not sure if specific to Rails or an ERB thing, but the views seem to reference a form that is stored separately. And all files are appended with `.html.erb`
 
 2. Consulting blogs and commentary you find online, identify 3 similarities between Rails and Sinatra.
 
@@ -70,5 +70,5 @@ and
 ```
 ruby myapp.rb
 ```
-Then you just visit `http://localhost:4567`. 
+Then you just visit `http://localhost:4567`.
 So, the added pieces include the MVC model, all the gems, the config (to use with a database, which you don't necessarily have to with Sinatra), the db folder, spec for testing, and probably some other things.
