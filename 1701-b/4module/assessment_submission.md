@@ -36,9 +36,9 @@
 # Jonathan Kidd
 
 - URL Lockbox Github Repo Link: https://github.com/jk1dd/URLockBox
-- URL Lockbox Production Link: 
-- Hot Reads Github Repo Link:
-- Hot Reads Production Link: 
+- URL Lockbox Production Link: https://stark-meadow-35466.herokuapp.com/login
+- Hot Reads Github Repo Link: https://github.com/jk1dd/hot_reads
+- Hot Reads Production Link: https://fathomless-basin-91014.herokuapp.com/
 
 # Joseph Glass
 
